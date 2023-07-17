@@ -1,4 +1,4 @@
-public class Mitarbeiter  {
+public class Mitarbeiter extends Person  {
     //Objekteattributen
     private String arbeiternummer;
     private String filiale; // Wo arbeite ich?
