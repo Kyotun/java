@@ -90,7 +90,6 @@ public abstract class Person {
         System.out.println(list.size());
     }
 
-    // return int, -1 lenght, -2 icerik, 0 hatasiz
     public static boolean checkBuergerID(String bg)  throws BadBuergerIDFormatException{
         if (bg.length() == 7) {
             if (bg.length() != 0 && bg.charAt(0) != '0' && Character.isDigit(bg.charAt(0)) &&

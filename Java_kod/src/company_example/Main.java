@@ -1,8 +1,6 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
-import java.util.*;
 import java.util.ArrayList;
-import java.util.Arrays;
 
 class Main {
     public static void main(String[] args) {
@@ -16,8 +14,6 @@ class Main {
         Scanner sc = new Scanner(System.in);
 
         int operation = 0;
-
-        boolean akzp = true;
 
         while (operation != 100) {
 
