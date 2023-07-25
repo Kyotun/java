@@ -5,7 +5,7 @@ import java.util.ArrayList;
 class Main {
     public static void main(String[] args) {
 
-
+        //h
         //Arraylist Elements sollen uebereinstimmen
         ArrayList<Mitarbeiter> mitarbeiter = new ArrayList<Mitarbeiter>();
         ArrayList<Kunde> kunden = new ArrayList<Kunde>();
