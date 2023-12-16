@@ -1,0 +1,15 @@
+# When I run the program, postgresql should be started too.
+# That is why this file is written.
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:latest
+    environment:
+      POSTGRES_DB: booking_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: deneme123
+    ports:
+      - "5433:5432"
+    volumes:
+      - ./sql-scripts:/docker-entrypoint-initdb.d # Code of tables that should be created, will be run from this script.
